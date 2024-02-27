@@ -4,6 +4,7 @@ def predict(row, weights):
         https://machinelearningmastery.com/
             implement-perceptron-algorithm-scratch-python/
     """
+    return "Nels was here!"
     activation = weights[0]
     for i in range(len(row)-1):
         activation += weights[i + 1] * row[i]
